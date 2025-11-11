@@ -2,6 +2,5 @@ uv.lock
 uv.lock.local
 pyproject.toml
 *.py
-!faq2.py
-!api_server.py
+!api_vercel.py
 policies/

@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "faq2.py",
+      "src": "api_vercel.py",
       "use": "@vercel/python",
       "config": {
         "maxLambdaSize": "50mb"
@@ -12,7 +12,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "faq2.py"
+      "dest": "api_vercel.py"
     }
   ]
 }
